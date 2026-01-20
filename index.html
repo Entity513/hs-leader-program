@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSリーダー育成プログラム</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Heroセクション -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-illustration">
+                <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <!-- 成長・挑戦・積み上げを表す抽象的なイラスト -->
+                    <g opacity="0.8">
+                        <!-- 階段状の積み上げ -->
+                        <rect x="30" y="160" width="30" height="40" fill="#2563EB" opacity="0.9"/>
+                        <rect x="70" y="130" width="30" height="70" fill="#2563EB" opacity="0.7"/>
+                        <rect x="110" y="100" width="30" height="100" fill="#2563EB" opacity="0.9"/>
+                        <rect x="150" y="70" width="30" height="130" fill="#2563EB"/>
+                        <!-- 上向きの矢印 -->
+                        <path d="M 90 70 L 100 50 L 110 70" stroke="#2563EB" stroke-width="3" fill="none" stroke-linecap="round"/>
+                        <circle cx="100" cy="45" r="8" fill="#2563EB"/>
+                    </g>
+                </svg>
+            </div>
+            <h1 class="hero-title">HSリーダー育成プログラム</h1>
+            <p class="hero-subtitle">選ばれた実力者だけが参加できる、次世代リーダー育成プログラム</p>
+        </div>
+    </section>
+
+    <!-- プログラムの目的 -->
+    <section class="purpose">
+        <div class="container">
+            <h2 class="section-title">プログラムの目的</h2>
+            <div class="purpose-grid">
+                <div class="purpose-card">
+                    <div class="purpose-number">01</div>
+                    <div class="purpose-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="30" cy="30" r="25" fill="none" stroke="#2563EB" stroke-width="2"/>
+                            <path d="M 20 30 L 28 38 L 40 22" stroke="#2563EB" stroke-width="3" fill="none" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Re:Pokerの成功</h3>
+                    <p>新規店舗立ち上げを通じて、組織全体の成長を実現</p>
+                </div>
+                <div class="purpose-card">
+                    <div class="purpose-number">02</div>
+                    <div class="purpose-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="15" y="20" width="30" height="25" fill="none" stroke="#2563EB" stroke-width="2"/>
+                            <path d="M 30 10 L 35 20 L 25 20 Z" fill="#2563EB"/>
+                            <circle cx="30" cy="35" r="8" fill="#2563EB"/>
+                        </svg>
+                    </div>
+                    <h3>準店長クラス人材の育成</h3>
+                    <p>即戦力となるリーダーシップを持つ人材を短期間で育成</p>
+                </div>
+                <div class="purpose-card">
+                    <div class="purpose-number">03</div>
+                    <div class="purpose-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="10" y="15" width="40" height="30" fill="none" stroke="#2563EB" stroke-width="2" rx="3"/>
+                            <line x1="30" y1="15" x2="30" y2="45" stroke="#2563EB" stroke-width="2"/>
+                            <circle cx="22" cy="28" r="3" fill="#2563EB"/>
+                            <circle cx="38" cy="28" r="3" fill="#2563EB"/>
+                        </svg>
+                    </div>
+                    <h3>新店舗立ち上げを担える人材の確保</h3>
+                    <p>ゼロから組織を作り上げる経験を持つ戦力を確保</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- カリキュラム概要 -->
+    <section class="curriculum">
+        <div class="container">
+            <h2 class="section-title">カリキュラム概要</h2>
+            
+            <!-- ① マネジメント基礎 -->
+            <div class="curriculum-item">
+                <div class="curriculum-illustration">
+                    <svg width="300" height="250" viewBox="0 0 300 250" xmlns="http://www.w3.org/2000/svg">
+                        <!-- マネジメント・管理を表す抽象イラスト -->
+                        <g opacity="0.7">
+                            <!-- グラフ・チャート -->
+                            <rect x="50" y="180" width="30" height="50" fill="#2563EB" opacity="0.8"/>
+                            <rect x="100" y="150" width="30" height="80" fill="#2563EB" opacity="0.7"/>
+                            <rect x="150" y="120" width="30" height="110" fill="#2563EB"/>
+                            <rect x="200" y="140" width="30" height="90" fill="#2563EB" opacity="0.9"/>
+                            <!-- 上向きの矢印 -->
+                            <path d="M 165 110 L 165 90 L 155 100 L 165 110 L 175 100 Z" fill="#2563EB"/>
+                            <!-- 円（PDCAを表現） -->
+                            <circle cx="235" cy="80" r="25" fill="none" stroke="#2563EB" stroke-width="2" opacity="0.6"/>
+                            <path d="M 235 55 Q 260 80 235 105 Q 210 80 235 55" stroke="#2563EB" stroke-width="2" fill="none" opacity="0.4"/>
+                        </g>
+                    </svg>
+                </div>
+                <div class="curriculum-text">
+                    <div class="curriculum-header">
+                        <span class="curriculum-number-badge">01</span>
+                        <h3 class="curriculum-title">マネジメント基礎</h3>
+                    </div>
+                    <div class="curriculum-tag">基礎スキル</div>
+                    <div class="curriculum-details">
+                        <div class="detail-item">
+                            <div class="detail-icon-badge">📊</div>
+                            <div class="detail-content">
+                                <div class="detail-header">
+                                    <strong>シフト作成技術</strong>
+                                    <span class="detail-badge">必須</span>
+                                </div>
+                                <p>募集方法から作成まで。既存店では見直さない<mark class="highlight-keyword">適正人数を1から構築</mark>。人数だけでなく<mark class="highlight-keyword">スキルも考慮</mark>して作成。作成後も<mark class="highlight-keyword">途中経過を観察</mark>しながら軌道修正していく。</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-icon-badge">📈</div>
+                            <div class="detail-content">
+                                <div class="detail-header">
+                                    <strong>売上 / 粗利管理の基礎</strong>
+                                    <span class="detail-badge">必須</span>
+                                </div>
+                                <p>売上の目標を立て、<mark class="highlight-number">毎日・毎週・毎月</mark>、売上について振り返る。感覚ではなく<mark class="highlight-keyword">数字で比較</mark>し、主体的に<mark class="highlight-badge">PDCAサイクル</mark>を回す習慣を身につける。</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-icon-badge important">🔍</div>
+                            <div class="detail-content">
+                                <div class="detail-header">
+                                    <strong>店舗KPIモニタリング手法</strong>
+                                    <span class="detail-badge important-badge">最重要</span>
+                                </div>
+                                <div class="kpi-methods">
+                                    <div class="method-tag">
+                                        <span class="method-label">定点観測</span>
+                                        <p>毎日・毎週・毎月、同じ指標を見る。感覚（「今日は暇だった」）ではなく数字（「平日同時間帯比で来店−20%」）で比較する。</p>
+                                    </div>
+                                    <div class="method-tag">
+                                        <span class="method-label">異常検知</span>
+                                        <p>「なんか違う」という違和感を言語化できる状態。高い解像度で店舗を観察する力。</p>
+                                    </div>
+                                    <div class="method-tag">
+                                        <span class="method-label">仮説検証</span>
+                                        <p>来客減の原因は雨か？告知不足か？リング卓が開かない理由は人員か？レーキか？レートか？システムか？プロモか？仮説を立てて確認する。</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-icon-badge">⚡</div>
+                            <div class="detail-content">
+                                <div class="detail-header">
+                                    <strong>トラブルシューティング</strong>
+                                    <span class="detail-badge">実践</span>
+                                </div>
+                                <p>クレーム対応等、チーム内で起こったことを共有して学ぶ。落ち着いて話をよく聞き、状況を把握する。<mark class="highlight-keyword">店長不在時に現場で裁量を持って判断</mark>する経験を積む。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ② オペレーション実務 -->
+            <div class="curriculum-item">
+                <div class="curriculum-illustration">
+                    <svg width="300" height="250" viewBox="0 0 300 250" xmlns="http://www.w3.org/2000/svg">
+                        <!-- オペレーション・実務を表す抽象イラスト -->
+                        <g opacity="0.7">
+                            <!-- 時計 -->
+                            <circle cx="150" cy="125" r="50" fill="none" stroke="#2563EB" stroke-width="3"/>
+                            <circle cx="150" cy="125" r="5" fill="#2563EB"/>
+                            <line x1="150" y1="125" x2="150" y2="100" stroke="#2563EB" stroke-width="3" stroke-linecap="round"/>
+                            <line x1="150" y1="125" x2="170" y2="125" stroke="#2563EB" stroke-width="2" stroke-linecap="round"/>
+                            <!-- チェックリスト -->
+                            <rect x="80" y="50" width="140" height="40" fill="none" stroke="#2563EB" stroke-width="2" rx="4"/>
+                            <line x1="90" y1="65" x2="110" y2="65" stroke="#2563EB" stroke-width="2"/>
+                            <line x1="90" y1="75" x2="200" y2="75" stroke="#2563EB" stroke-width="2"/>
+                            <circle cx="95" cy="70" r="3" fill="#2563EB"/>
+                            <circle cx="95" cy="80" r="3" fill="#2563EB"/>
+                            <!-- 矢印（流れを表現） -->
+                            <path d="M 100 200 L 200 200" stroke="#2563EB" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+                            <defs>
+                                <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+                                    <polygon points="0 0, 10 3, 0 6" fill="#2563EB"/>
+                                </marker>
+                            </defs>
+                        </g>
+                    </svg>
+                </div>
+                <div class="curriculum-text">
+                    <div class="curriculum-header">
+                        <span class="curriculum-number-badge">02</span>
+                        <h3 class="curriculum-title">オペレーション実務</h3>
+                    </div>
+                    <div class="curriculum-tag practical">実務スキル</div>
+                    <div class="curriculum-details">
+                        <div class="detail-item">
+                            <div class="detail-icon-badge">🕐</div>
+                            <div class="detail-content">
+                                <div class="detail-header">
+                                    <strong>オープン / クローズ責任者業務</strong>
+                                    <span class="detail-badge">必須</span>
+                                </div>
+                                <p>店舗の<mark class="highlight-keyword">開店から閉店まで</mark>の一連の流れを責任者として管理する。準備から最終チェックまで、すべての工程を把握し、適切に実行できるようになる。</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-icon-badge highlight">👥</div>
+                            <div class="detail-content">
+                                <div class="detail-header">
+                                    <strong>品質 / サービス / 清潔さの管理基準・顧客対応品質の標準化</strong>
+                                    <span class="detail-badge highlight-badge">重要</span>
+                                </div>
+                                <p><mark class="highlight-keyword">新人だらけの店舗で"お手本"になる役割</mark>を期待。ハンターの店舗で培ってきた経験を、新人だらけの新店立ち上げの現場で活かす。自分自身がお手本となり、新人に正しいオペレーションを伝えていく。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ③ ポーカー技能研修 -->
+            <div class="curriculum-item">
+                <div class="curriculum-illustration">
+                    <svg width="300" height="250" viewBox="0 0 300 250" xmlns="http://www.w3.org/2000/svg">
+                        <!-- ポーカー・技能・指導を表す抽象イラスト -->
+                        <g opacity="0.7">
+                            <!-- カード -->
+                            <rect x="100" y="80" width="40" height="60" fill="none" stroke="#2563EB" stroke-width="2" rx="4"/>
+                            <rect x="130" y="90" width="40" height="60" fill="none" stroke="#2563EB" stroke-width="2" rx="4"/>
+                            <rect x="160" y="100" width="40" height="60" fill="none" stroke="#2563EB" stroke-width="2" rx="4"/>
+                            <!-- 光（知識・技能を表現） -->
+                            <circle cx="150" cy="60" r="25" fill="#2563EB" opacity="0.3"/>
+                            <circle cx="150" cy="60" r="15" fill="#2563EB" opacity="0.5"/>
+                            <!-- 矢印（指導・伝達を表現） -->
+                            <path d="M 150 200 L 150 170 M 140 180 L 150 170 L 160 180" stroke="#2563EB" stroke-width="2" fill="none" stroke-linecap="round"/>
+                            <!-- 人のアイコン（指導者） -->
+                            <circle cx="150" cy="210" r="12" fill="#2563EB"/>
+                            <rect x="142" y="222" width="16" height="20" fill="#2563EB"/>
+                        </g>
+                    </svg>
+                </div>
+                <div class="curriculum-text">
+                    <div class="curriculum-header">
+                        <span class="curriculum-number-badge">03</span>
+                        <h3 class="curriculum-title">ポーカー技能研修</h3>
+                    </div>
+                    <div class="curriculum-tag special">専門技能</div>
+                    <div class="curriculum-details">
+                        <div class="detail-item">
+                            <div class="detail-icon-badge">🎓</div>
+                            <div class="detail-content">
+                                <div class="detail-header">
+                                    <strong>ディーリング技能の指導者視点習得</strong>
+                                    <span class="detail-badge special-badge">専門</span>
+                                </div>
+                                <p>単にディーリングができるだけでなく、その技能を<mark class="highlight-keyword">「教える立場」として理解</mark>する。トレーナー視点で技術を習得し、後進を育成できる能力を身につける。<mark class="highlight-keyword">研修コストが高い専門技能</mark>を<mark class="highlight-number">短期集中</mark>で習得する。</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-icon-badge">💡</div>
+                            <div class="detail-content">
+                                <div class="detail-header">
+                                    <strong>先生として伝える経験</strong>
+                                    <span class="detail-badge">実践</span>
+                                </div>
+                                <p>知識や技術を持っているだけではなく、それを<mark class="highlight-keyword">他者に分かりやすく伝え</mark>、実際に習得してもらう経験を積む。教えることで自分自身の理解も深まる。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ④ チームビルド -->
+            <div class="curriculum-item">
+                <div class="curriculum-illustration">
+                    <svg width="300" height="250" viewBox="0 0 300 250" xmlns="http://www.w3.org/2000/svg">
+                        <!-- チームビルド・組織作りを表す抽象イラスト -->
+                        <g opacity="0.7">
+                            <!-- 複数の人（円で表現） -->
+                            <circle cx="100" cy="150" r="20" fill="#2563EB" opacity="0.8"/>
+                            <circle cx="150" cy="120" r="25" fill="#2563EB"/>
+                            <circle cx="200" cy="150" r="20" fill="#2563EB" opacity="0.8"/>
+                            <circle cx="125" cy="190" r="18" fill="#2563EB" opacity="0.7"/>
+                            <circle cx="175" cy="190" r="18" fill="#2563EB" opacity="0.7"/>
+                            <!-- つながりを表す線 -->
+                            <path d="M 120 145 Q 135 135 145 135" stroke="#2563EB" stroke-width="2" fill="none" opacity="0.5"/>
+                            <path d="M 155 135 Q 165 135 180 145" stroke="#2563EB" stroke-width="2" fill="none" opacity="0.5"/>
+                            <path d="M 125 175 Q 140 180 150 180 Q 160 180 175 175" stroke="#2563EB" stroke-width="2" fill="none" opacity="0.5"/>
+                            <path d="M 115 165 Q 130 185 130 185" stroke="#2563EB" stroke-width="2" fill="none" opacity="0.4"/>
+                            <path d="M 185 165 Q 170 185 170 185" stroke="#2563EB" stroke-width="2" fill="none" opacity="0.4"/>
+                            <!-- 中心から広がる波（チームの力） -->
+                            <circle cx="150" cy="150" r="70" fill="none" stroke="#2563EB" stroke-width="1" opacity="0.2"/>
+                        </g>
+                    </svg>
+                </div>
+                <div class="curriculum-text">
+                    <div class="curriculum-header">
+                        <span class="curriculum-number-badge">04</span>
+                        <h3 class="curriculum-title">チームビルド</h3>
+                    </div>
+                    <div class="curriculum-tag leadership">リーダーシップ</div>
+                    <div class="curriculum-details">
+                        <div class="detail-item">
+                            <div class="detail-icon-badge">🎯</div>
+                            <div class="detail-content">
+                                <div class="detail-header">
+                                    <strong>新人アルバイトへの教育・指示出し</strong>
+                                    <span class="detail-badge">必須</span>
+                                </div>
+                                <p>新人に対して<mark class="highlight-keyword">適切に指示を出し、成長をサポート</mark>する。一人ひとりの特性を理解しながら、効果的な教育方法を実践する。</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-icon-badge">🌟</div>
+                            <div class="detail-content">
+                                <div class="detail-header">
+                                    <strong>モチベーション管理とチームの雰囲気作り</strong>
+                                    <span class="detail-badge">重要</span>
+                                </div>
+                                <p>個人のモチベーションを管理し、チーム全体の雰囲気を良い方向に導く。<mark class="highlight-keyword">一人ひとりの理解を積み重ね</mark>、自然と力が集まる状態を作る。</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-icon-badge highlight">🚀</div>
+                            <div class="detail-content">
+                                <div class="detail-header">
+                                    <strong>新店特有の「ゼロからの組織作り」体験</strong>
+                                    <span class="detail-badge highlight-badge">貴重</span>
+                                </div>
+                                <p>既存店とは異なる、<mark class="highlight-keyword">ゼロからの組織作り</mark>を体験する。誰もいない状態からチームを形成し、機能する組織に育て上げる<mark class="highlight-keyword">貴重な経験</mark>を得る。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- チームビルドの考え方 -->
+    <section class="team-build">
+        <div class="container">
+            <h2 class="section-title">チームビルドの考え方</h2>
+            <div class="team-build-content">
+                <div class="team-build-illustration">
+                    <svg width="300" height="250" viewBox="0 0 300 250" xmlns="http://www.w3.org/2000/svg">
+                        <!-- 人と人の関係性を表す抽象イラスト -->
+                        <g opacity="0.7">
+                            <!-- 3つの人（円で表現） -->
+                            <circle cx="80" cy="150" r="25" fill="#2563EB" opacity="0.8"/>
+                            <circle cx="150" cy="120" r="30" fill="#2563EB"/>
+                            <circle cx="220" cy="150" r="25" fill="#2563EB" opacity="0.8"/>
+                            
+                            <!-- つながりを表す線 -->
+                            <path d="M 105 145 Q 125 135 135 135" stroke="#2563EB" stroke-width="2" fill="none" opacity="0.5"/>
+                            <path d="M 165 135 Q 185 135 195 145" stroke="#2563EB" stroke-width="2" fill="none" opacity="0.5"/>
+                            <path d="M 80 150 Q 150 100 220 150" stroke="#2563EB" stroke-width="2" fill="none" opacity="0.3"/>
+                            
+                            <!-- 中心から広がる波（目的に集まる力を表現） -->
+                            <circle cx="150" cy="120" r="60" fill="none" stroke="#2563EB" stroke-width="1" opacity="0.2"/>
+                            <circle cx="150" cy="120" r="90" fill="none" stroke="#2563EB" stroke-width="1" opacity="0.1"/>
+                        </g>
+                    </svg>
+                </div>
+                <div class="team-build-text">
+                    <div class="team-build-definition">
+                        <p class="definition-text">
+                            チームビルドとは、<br>
+                            <strong>人を動かすことではなく、</strong><br>
+                            一人ひとりを理解しようとする姿勢を積み重ね、<br>
+                            店舗の目的に自然と力が集まる状態を作ること。
+                        </p>
+                    </div>
+                    <div class="team-build-elements">
+                        <h3 class="elements-title">必要な要素</h3>
+                        <ul class="elements-list">
+                            <li>よく観察する</li>
+                            <li>理解を行動で示す</li>
+                            <li>小さな成長を見逃さない</li>
+                            <li>判断基準をブレさせない</li>
+                            <li>感情や好き嫌いではなく、Re:Pokerの成功にとってどうかで判断する</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 個人的マインド -->
+    <section class="mindset">
+        <div class="container">
+            <h2 class="section-title">個人的マインド</h2>
+            <div class="mindset-content">
+                <div class="mindset-intro">
+                    <div class="mindset-illustration">
+                        <svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+                            <!-- 人生の目的と具体的な目標を表す抽象イラスト -->
+                            <g opacity="0.6">
+                                <!-- 地平線 -->
+                                <line x1="50" y1="250" x2="250" y2="250" stroke="#2563EB" stroke-width="2" opacity="0.3"/>
+                                <!-- 具体的な目標（近く） -->
+                                <rect x="120" y="200" width="60" height="50" fill="#2563EB" opacity="0.8" rx="4"/>
+                                <text x="150" y="228" text-anchor="middle" fill="#2563EB" font-size="12" font-weight="600">Re:Poker</text>
+                                <!-- 抽象的なゴール（遠く・上） -->
+                                <circle cx="150" cy="80" r="40" fill="none" stroke="#2563EB" stroke-width="3" opacity="0.7"/>
+                                <circle cx="150" cy="80" r="25" fill="#2563EB" opacity="0.3"/>
+                                <!-- つながりを表す線 -->
+                                <path d="M 150 200 Q 150 140 150 120" stroke="#2563EB" stroke-width="2" fill="none" opacity="0.5" stroke-dasharray="5,5"/>
+                                <!-- 光（成長・修行） -->
+                                <path d="M 150 80 L 140 60 L 150 50 L 160 60 Z" fill="#2563EB" opacity="0.6"/>
+                                <!-- 小さな星（積み上げ） -->
+                                <circle cx="100" cy="150" r="3" fill="#2563EB" opacity="0.5"/>
+                                <circle cx="200" cy="150" r="3" fill="#2563EB" opacity="0.5"/>
+                                <circle cx="130" cy="120" r="2" fill="#2563EB" opacity="0.4"/>
+                                <circle cx="170" cy="120" r="2" fill="#2563EB" opacity="0.4"/>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="mindset-intro-text">
+                        <p class="mindset-lead">
+                            店舗立ち上げや新店舗初期で一番大切なのは、<br>
+                            もちろん<strong>「目的」</strong>──Re:Pokerの成功
+                        </p>
+                        <p class="mindset-lead-sub">
+                            ただ、正直に言うと、<br>
+                            この目的は人生というスケールで見ると、<br>
+                            かなり<strong>具体に寄っている</strong>。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="mindset-main">
+                    <!-- 核心メッセージ -->
+                    <div class="mindset-core-message">
+                        <div class="core-icon">🎯</div>
+                        <h3 class="core-title">より抽象度の高い自分自身のゴール</h3>
+                        <p class="core-subtitle">だからこそ必要になるのが、より抽象度の高い自分自身のゴールだと思っている。</p>
+                    </div>
+
+                    <!-- 2つの問いかけ -->
+                    <div class="mindset-questions-visual">
+                        <div class="question-card">
+                            <div class="question-number">01</div>
+                            <div class="question-icon-large">💭</div>
+                            <p class="question-text-large">「自分は、人生でどうなりたいのか」</p>
+                        </div>
+                        <div class="question-card">
+                            <div class="question-number">02</div>
+                            <div class="question-icon-large">💭</div>
+                            <p class="question-text-large">「そのために、この店舗立ち上げを通して、どのように成長したいのか」</p>
+                        </div>
+                    </div>
+
+                    <!-- 修行メッセージ -->
+                    <div class="mindset-transformation">
+                        <div class="transformation-icon">⚡</div>
+                        <div class="transformation-content">
+                            <p class="transformation-label">ここが定まると</p>
+                            <h2 class="transformation-main">
+                                店舗立ち上げのタスクは<br>
+                                <span class="transformation-highlight">仕事ではなく、</span><br>
+                                <span class="transformation-emphasis">自分の人生に向かうための「修行」</span><br>
+                                になる。
+                            </h2>
+                            <p class="transformation-result">
+                                そうなれば、立ち上げの忙しさや細かいタスクなんて、<br>
+                                正直どうでもよくなる。
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- 警告セクション -->
+                    <div class="mindset-warning-visual">
+                        <div class="warning-header">
+                            <div class="warning-icon">⚠️</div>
+                            <h3 class="warning-title-large">このマインドがないと</h3>
+                        </div>
+                        <div class="warning-items">
+                            <div class="warning-item">疲れた</div>
+                            <div class="warning-item">評価されているのかわからない</div>
+                            <div class="warning-item">なんで私がこんなにやってるんだ</div>
+                            <div class="warning-item">何連勤してるんだろう</div>
+                            <div class="warning-item">なんかやる気が出ない</div>
+                        </div>
+                        <div class="warning-conclusion">
+                            <span class="warning-badge">モチベーション低下</span>
+                        </div>
+                    </div>
+
+                    <!-- 哲学メッセージ -->
+                    <div class="mindset-philosophy-visual">
+                        <div class="philosophy-quote">
+                            <div class="quote-mark">"</div>
+                            <p class="philosophy-main-large">
+                                正直人生において、<br>
+                                <span class="philosophy-emphasis">モチベーションなんていらない</span>
+                            </p>
+                        </div>
+                        <div class="philosophy-action">
+                            <p class="action-text">モチベーションがないからやらない、という選択肢はない。</p>
+                            <div class="action-decision">
+                                <span class="decision-text">やるか、やらないか。</span>
+                            </div>
+                            <p class="action-result">毎日を積み重ねるしかない</p>
+                        </div>
+                    </div>
+
+                    <!-- クロージング -->
+                    <div class="mindset-closing-visual">
+                        <div class="closing-icon">🔥</div>
+                        <h1 class="closing-message-large">魂燃やしていきましょう</h1>
+                        <div class="closing-decoration"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- クロージング -->
+    <section class="closing">
+        <div class="container">
+            <div class="closing-content">
+                <h2 class="closing-title">この1ヶ月で得られるものは、<br>人によって全く違う</h2>
+                <p class="closing-text">
+                    同じ現場でも、視点次第で"人生の密度"が変わる。<br>
+                    このプログラムは、任される側へ進むための入口である。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">HSリーダー育成プログラム</p>
+        </div>
+    </footer>
+</body>
+</html>
